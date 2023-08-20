@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@700&display=swap');
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(61, 61, 61, 0.48);
+    z-index: 3;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 611px;
+    height: 879px;
+
+    position: absolute;
+    top: 8%;
+    left: 30%;
+
+    border-radius: 20px;
+    background: #ffffff;
+    z-index: 88;
+}
+
+.titulo-modal h1 {
+    color: #000;
+    font-size: 36px;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.titulo-modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 61px;
+    margin-bottom: 52px;
+
+    width: 492px;
+    height: 43px;
+}
+
+.exit-modal {
+    width: 26.58px;
+    height: 26.382px;
+    cursor: pointer;
+}
+
+.buttons button {
+    width: 244.5px;
+    height: 56px;
+    margin-bottom: 42px;
+
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5px;
+    background: #B9B9B9;
+    cursor: pointer;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.buttons .saida-ativo {
+    background: #FF576B;
+}
+
+.buttons .entrada-ativa {
+    background: #3A9FF1;
+}
+
+
+.input {
+    margin-bottom: 26px;
+}
+
+.input input,
+select {
+    width: 485px;
+    height: 63.486px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background: #FFF;
+
+    padding-left: 5px;
+
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../../assets/select.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position: right 10px center;
+}
+
+.strong-alert {
+    color: #d81c1c;
+    text-align: center;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.input span {
+    display: flex;
+    flex-direction: column;
+
+    width: 215px;
+    height: 32px;
+
+    color: #484848;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+.btn-confirm {
+    width: 236px;
+    height: 46px;
+
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 130px;
+
+    background: #7978D9;
+    color: #FFF;
+
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 700;
+}

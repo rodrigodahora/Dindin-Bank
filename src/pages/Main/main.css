@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 224px;
+
+    background: linear-gradient(90deg, #05EDE3 0%, #645FFB 100%);
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 85%;
+    height: 56px;
+    margin-top: 41px;
+}
+
+main {
+    position: absolute;
+    top: 118px;
+
+    width: 100vw;
+    height: 927px;
+
+    border-radius: 60px 60px 0px 0px;
+    background: #FFF;
+    z-index: 2
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 30px;
+    margin: 55px 0 0 105px;
+
+    border: none;
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 70vw;
+    height: 58px;
+
+    gap: 105px;
+    padding-left: 20px;
+    margin: 26px 0 0 105px;
+
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.infos-registros {
+    display: flex;
+    align-items: center;
+
+    padding-left: 20px;
+    gap: 100px;
+    width: 70vw;
+    height: 58px;
+    margin: 15px 0 0 105px;
+
+    border-bottom: solid 1px lightgray;
+
+}
+
+.infos-registros .p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 600;
+
+}
+
+.desc,
+.categoria,
+.valor {
+    padding-left: 32px;
+
+    color: #000;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.img-edit,
+.img-delete {
+    margin-left: -35px;
+    margin-right: -45px;
+
+    cursor: pointer;
+}
+
+.infos,
+.p,
+.data-registros {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.resumo {
+    position: absolute;
+    width: 236px;
+    height: 196px;
+
+    top: 111px;
+    left: 80vw;
+    border-radius: 10px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+}
+
+.resumo h1 {
+    margin: 26px 0 23px 33px;
+    color: #2F2F2F;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.resumo-states {
+    display: flex;
+    flex-direction: column;
+
+    width: 189px;
+    margin: 26px 0 23px 33px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.resumo-states div {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 8px;
+}
+
+.saldo-states {
+    display: flex;
+    justify-content: space-between;
+
+    width: 170px;
+}
+
+.resumo-states,
+.span {
+    margin-bottom: 12px;
+    color: #2F2F2F;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+.saldo {
+    margin-left: 33px;
+
+    color: #2F2F2F;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+
+.add-registro {
+    position: absolute;
+    top: 323px;
+    left: 80vw;
+
+    width: 236px;
+    height: 46px;
+
+    border: none;
+    border-radius: 5px;
+    background: #7978D9;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .filter {
+        margin: 10px auto;
+        width: 100px;
+        font-size: 10px;
+    }
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user span {
+    margin-right: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.entrada {
+    color: #7B61FF;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.saida {
+    color: #FA8C10;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.saldo-number {
+    margin-left: 89px;
+
+    color: #3A9FF1;
+    text-align: right;
+    font-size: 14px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
